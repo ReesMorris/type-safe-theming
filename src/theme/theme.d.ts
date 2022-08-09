@@ -9,15 +9,15 @@ declare module 'theming' {
     // .. this contains your app's theme palette declarations ..
     // .. this is just example code, put whatever here! ..
     colors: {
-      black: ThemeValue;
-      white: ThemeValue;
+      black: TokenValue;
+      white: TokenValue;
       grey: {
-        100: ThemeValue;
-        900: ThemeValue;
+        100: TokenValue;
+        900: TokenValue;
       };
     };
     fonts: {
-      sans: ThemeValue;
+      sans: TokenValue;
     };
   }
 
